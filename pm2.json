@@ -1,0 +1,11 @@
+{
+  "name": "express-lib",
+  "script": "./dist/index.js",
+  "instances": "2",
+  "env": {
+    "PORT": "3000"
+  },
+  "env_production": {
+    "PORT": "3000"
+  }
+}
