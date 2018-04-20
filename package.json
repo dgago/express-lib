@@ -12,9 +12,8 @@
   "keywords": [],
   "scripts": {
     "compile": "tsc",
-    "concat-declarations": "gulp concat-declarations",
-    "clean-declarations": "gulp clean-declarations",
-    "build": "run-s compile concat-declarations clean-declarations",
+    "declarations": "gulp declarations",
+    "build": "run-s compile declarations",
     "watch1": "tsc --watch",
     "watch2": "nodemon .\\dist\\",
     "start": "run-p watch1 watch2",
