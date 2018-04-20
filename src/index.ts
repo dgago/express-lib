@@ -7,7 +7,7 @@ import { createServer } from "./server";
 
 initConfig();
 
-import { router as users } from "./routes/users";
+import { router as files } from "./routes/files";
 
-const app: express.Application = createApp([users]);
+const app: express.Application = createApp([files]);
 const server: http.Server = createServer(app);
