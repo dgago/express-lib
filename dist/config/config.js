@@ -11,4 +11,5 @@ exports.initConfig = () => {
         });
     }
 };
+exports.verifyConfiguration = () => { };
 //# sourceMappingURL=config.js.map
